@@ -21,5 +21,3 @@ If you're not using Multi-Factor Authentication for your GMAIL Account, follow t
 		GMAIL_SERVER, GMAIL_PORT: Leave as-is
 		IMAGE_DIR_PATH: Set to the local path you wouldd like the images to be loaded into
 	3. Once updated, run email_reader.py (or .exe if using executable) and verify images get populated into the directory you specified in properties.ini 
-=======
->>>>>>> branch 'email-features' of https://github.com/denis-wane/usps-email-reader.git
