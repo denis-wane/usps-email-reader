@@ -13,7 +13,14 @@ from_email = ""
 from_pwd = ""
 smtp_server = ""
 detach_dir = ""
- 
+
+# -------------------------------------------------
+#
+#  This loads properties about the Gmail account from
+#  a properties.ini file.  If not present, a
+#  configparser.NoSectionError will be returned
+#
+# -------------------------------------------------
 def getConfigs(from_email, from_pwd, smtp_server, detach_dir):
     config = configparser.ConfigParser()
     
